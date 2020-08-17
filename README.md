@@ -1,7 +1,7 @@
 # dfsstats
 
 - This resource requires DFS Base. https://github.com/DarkFeather-Studios/fivem_framework
-- This resource is a complete replacement for ESX_Staus, fixing a server hitch/crash vulnerability with per-frame stat transactions. You may need to modify "hunger" and "thirst" in your scripts to instead be "Food" and "Water". Registration of stats is non-compatible, but is now oodles easier for anyone with a few days of coding or more under their belt.
+- This resource is a complete in-place replacement for ESX_Staus - you can still use the ESX_status events and DFS Stats will track them. It fixes a server hitch/crash vulnerability with per-frame stat transactions while using ESX_Status. You may need to modify "hunger" and "thirst" in your scripts to instead be "Food" and "Water". ESX_Status registration of stats is non-compatible with DFS Stats, but is now oodles easier for anyone with a few days of coding or more under their belt.
 - This resource may cause issues when modifying health from an external, non-game source. Try to use the embedded events for health changes not caused by game events.
 - This resource requires MySQL Async and the SQL file provided with esx_status. This dependencie may take more than an hour to remove.
 
